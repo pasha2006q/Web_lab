@@ -129,10 +129,16 @@ class Program
         </div>
     </section>
 
+    <!-- docs: add Projects section with current project description -->
     <section>
         <h2>Projects</h2>
-        <p>CV.</p>
+        <ul>
+            <li><strong>CV Website</strong> - Personal resume website (HTML/CSS)</li>
+            <li><strong>Matrix Calculator</strong> - C# console app for matrix operations</li>
+            <li><strong>Student Database</strong> - SQL database management project</li>
+        </ul>
     </section>
+
 </main>
 
 <hr>
