@@ -1,76 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>My CV</title>
-</head>
+# Pavel Fedorov
 
-<body > 
+---
 
-<header align="center">
-    <svg width="180" height="180">
-    <defs>
-        <clipPath id="circleClip">
-            <circle cx="90" cy="90" r="90"/>
-        </clipPath>
-    </defs>
-    <image href="photo.png" width="180" height="180" clip-path="url(#circleClip)"/>
-</svg >
-    
-</header>
-    
-    <h1 style="color: red;">Pavel Fedorov</h1>
-</header>
+## Education
+- University: Belarusian-Russian University, automated information
+- English Course: A2+
 
-<hr>
+## About Me
+I am a student of the **Belarusian-Russian University** on specialization automated information.  
+I am also studying English now.  
+I love sports especially **basketball**.
 
-<main>
-    <section>
-        <h2>Education</h2>
-        <ul>
-            <li>University: Belarusian-Russian University, automated information</li>
-            <li>English Course: A2+</li>
-        </ul>
-    </section>
+## Skills
+- HTML
+- CSS
+- JavaScript
+- C#
+- SQL
+- Git
 
-    <section>
-        <h2>About Me</h2>
-        <p>
-           I am a student of the <strong>Belarusian-Russian University</strong> on specialization automated information. 
-          <br> I am also studying English now. 
-           <br>I love sports especially <strong>basketball</strong>. 
-        </p>
-    </section>
+## Contacts
+- **Location:** Mogilev
+- **Phone:** +375255326466
+- **Email:** [Pavelfyofarov@gmail.com](mailto:Pavelfyofarov@gmail.com)
+- **GitHub:** [My GitHub](https://github.com/pasha2006q)
+- **Instagram:** [My Instagram](https://instagram.com/pasha_fedorov4)
+- **VK:** [My VK](https://vk.com/id420074817)
 
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li style="color: blue;">HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>C#</li>
-            <li>SQL</li>
-            <li>Git</li>
-        </ul>
-    </section>
+## Code Example
 
-    <section>
-        <h2>Contacts</h2>
-        <ul>
-            <li><strong>Location:</strong> Mogilev</li>
-            <li><strong>Phone:</strong> +375255326466</li>
-            <li><strong>Email:</strong> <a href="mailto:Pavelfyofarov@gmail.com">Pavelfyofarov@gmail.com</a></li>
-            <li><strong>GitHub:</strong> <a href="https://github.com/pasha2006q">My GitHub</a></li>
-            <li><strong>Instagram:</strong> <a href="https://instagram.com/pasha_fedorov4">My Instagram</a></li>
-            <li><strong>VK:</strong> <a href="https://vk.com/id420074817">MY VK</a></li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Code Example</h2>
-        <div>
-            <pre>
-<code>
+```csharp
 // Simple example
 using System;
 
@@ -84,32 +43,32 @@ class Program
 
         int[,] matrix = new int[n, n];
 
-        for (int i = 0; i &lt; n; i++)
+        for (int i = 0; i < n; i++)
         {
-            for (int j = 0; j &lt; n; j++)
+            for (int j = 0; j < n; j++)
             {
                 matrix[i, j] = random.Next(0, 11);
             }
         }
 
         Console.WriteLine("\nСгенерированная матрица:");
-        for (int i = 0; i &lt; n; i++)
+        for (int i = 0; i < n; i++)
         {
-            for (int j = 0; j &lt; n; j++)
+            for (int j = 0; j < n; j++)
             {
                 Console.Write($"{matrix[i, j],4}");
             }
             Console.WriteLine();
         }
 
-        for (int i = 0; i &lt; n; i++)
+        for (int i = 0; i < n; i++)
         {
             bool hasNegative = false;
             int product = 1;
 
-            for (int j = 0; j &lt; n; j++)
+            for (int j = 0; j < n; j++)
             {
-                if (matrix[i, j] &lt; 0)
+                if (matrix[i, j] < 0)
                 {
                     hasNegative = true;
                     break;
@@ -124,46 +83,13 @@ class Program
         }
     }
 }
-</code>
-            </pre>
-        </div>
-    </section>
+```
+## Projects
 
-    <!-- docs: add Projects section with current project description -->
-    <section>
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>CV Website</strong> - Personal resume website (HTML/CSS)</li>
-            <li><strong>Matrix Calculator</strong> - C# console app for matrix operations</li>
-            <li><strong>Student Database</strong> - SQL database management project</li>
-        </ul>
-    </section>
+- **CV Website** - Personal resume website (HTML/CSS)
+- **Matrix Calculator** - C# console app for matrix operations
+- **Student Database** - SQL database management project
 
-</main>
+---
 
-<hr>
-
-<footer>
-    <p>© 2026 Pavel Fedorov</p>
-    <nav>
-        <a href="https://github.com/pasha2006q">GitHub</a> |
-        <a href="https://instagram.com/pasha_fedorov4">Instagram</a> |
-        <a href="https://vk.com/id420074817">VK</a>
-    </nav>
-</footer>
-
-</body>
-</html>
-
-
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
-   
-</head>
-
-
-    <h1 style="color: #2c3e50; font-family: Arial, sans-serif;">Pavel Fedorov</h1>
-   
+© 2026 Pavel Fedorov
