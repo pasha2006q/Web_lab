@@ -17,6 +17,8 @@
     <image href="photo.png" width="180" height="180" clip-path="url(#circleClip)"/>
 </svg >
     
+</header>
+    
     <h1 style="color: red;">Pavel Fedorov</h1>
 </header>
 
@@ -155,3 +157,7 @@ class Program
     <title>My CV</title>
    
 </head>
+
+
+    <h1 style="color: #2c3e50; font-family: Arial, sans-serif;">Pavel Fedorov</h1>
+   
